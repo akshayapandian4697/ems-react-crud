@@ -1,0 +1,122 @@
+html {
+    background-image: url("ems.jpg");
+}
+
+h4{
+    color: red;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#copyright {
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+	width: 100%;
+    color: whitesmoke;
+    margin-top: 1%;
+}
+
+/* Table Styles */
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.table-wrapper{
+    margin: 10px 70px 30px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: whitesmoke;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+    color: black;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 15px;
+}
+
+.fl-table thead th {
+    color: black;
+    background: #a2afc8;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #e1e3e7;
+}
+
+
+/* Form Styles */
+
+form {
+    text-align: center;
+    margin: 10px 70px 10px 50px;
+    width: 500px;
+    background: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 0 1rem 1rem -0.75rem black;
+    padding: 10px;
+    padding-top: 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+label {
+    text-align: left;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+input, select {
+    border: 1px solid #a2afc8;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    height: 2rem;
+    line-height: 1.25rem;
+    margin-top: 0.25rem;
+    order: 2;
+    padding: 0.25rem 0.5rem;
+    width: 20rem;
+}
+
+button {
+    color: black;
+    background: #a2afc8;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #a2afc8;
+    height: 2.25rem;
+    width: 130px;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
